@@ -30,4 +30,8 @@ this.tasks = tasks;
   this.taskService.updateTaskReminder(task).subscribe();  
   }
 
+  addTask(task : Task){
+    console.log(task);
+  }
+
 }
